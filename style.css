@@ -1,0 +1,220 @@
+body
+{
+	background: #f2f2f2;
+	padding-top: 40px;
+}
+
+.navbar
+{
+	height: 40px;
+	background-color: #c8b18b;
+	padding: 0;
+	border-style:none;
+	box-shadow: 0px 1px 40px #000000
+}
+.buffText
+{
+	color: black;
+}
+.nameBanner
+{
+	background-color: #B8C8C8;
+	margin-top: 7%;
+}
+.nameText
+{
+	color: white;
+}
+.aboutMe
+{
+	font-size: 20px;
+	color: gray;
+	line-height:40px;
+}
+.roundImg
+{
+	border-radius: 50%;
+	border-style: solid;
+	box-shadow: 10px 10px 0px #888888;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	
+}
+.fancyText
+{
+	font-family: 'Pacifico', cursive;
+}
+.regText
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.jumbotron
+{
+	background-color: #005581;
+	margin:0;
+}
+.classTime
+{
+	font-size:12px;
+	color: gray;
+}
+.pointer
+{
+	cursor: pointer;
+}
+.c1
+{
+	height: 50px;
+	margin-top: 30px;
+	padding: 5%;
+	background-color: white;
+}
+.c2
+{
+	background-color: white;
+}
+.b1Box
+{
+	padding:30px;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: white;
+}
+.b1Box_hl
+{
+	box-shadow: inset 0 0 0 5px #000000;
+}
+.b2Box
+{
+	padding:30px;
+	font-size: 20px; 	
+	border-style: solid;
+	border-width: 2px;
+	background-color: white;
+}
+.b2Box_hl
+{
+	box-shadow:inset 0 0 0 5px #000000;
+}
+.border
+{
+	transition: .5s ease;
+}
+.border:hover
+{
+	box-shadow:inset 0 0 0 5px #000000;
+}
+.expDesc
+{
+	font-size: 14px;
+	color: #828282;
+}
+.resumeSecHeader
+{
+	margin-top: 30px;
+}
+.resumeContent
+{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.c4r1
+{
+	background-color: #DBD9DA;
+	padding: 20px;
+}
+
+.col-centered
+{
+	float: none;
+    margin: 0 auto;
+}
+.thumbnail
+{
+	border-style: none;
+	padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+	margin: 5%;
+	position: relative;
+	background-color: #f2f2f2;
+}
+.thumbnail img
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.depPageRow
+{
+	padding: 5%;
+}
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: white;
+}
+.seasText
+{
+	transition: .5s ease;
+	position: relative;
+	padding: 4%;
+	line-height: 40px;
+	font-size: 175%;
+}
+.csText
+{
+	transition: .5s ease;
+	position: relative;
+	padding: 4%;
+	line-height: 40px;
+	font-size: 175%;
+}
+.seasCont:hover .overlay
+{
+	opacity: .80;
+}
+.csCont:hover .overlay
+{
+	opacity: .80;
+}
+.seasCont
+{
+	border-style: solid;
+	border-width: 10px;
+	position: relative;
+}
+.csCont
+{
+	position: relative;
+	border-width: 10px;
+	border-style: solid;
+}
+.c4
+{
+	background-color:white;
+}
+
+.pptCont
+{
+	margin-top: 8%;
+}
+
+.c7
+{
+	background-color: white;
+	padding-top: 35px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 25px;
+}

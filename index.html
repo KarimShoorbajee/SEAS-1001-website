@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Main Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body id ="home">
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class = "navbar-header">
+				<a class="navbar-brand buffText" href="#home">Karim Shoorbajee</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#sched" class = "buffText">Schedules</a></li>
+				<li><a href="#res" class = "buffText">Resume</a></li>
+				<li><a href="#dep" class = "buffText">Department Pages</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class ="jumbotron text-center">
+		<h1 class = "fancyText">Karim Shoorbajee</h1>
+		<p class="regText nameText">GWU Computer Science</p>
+	</div>
+	
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class = "col-sm-8">
+				<h2 class = "fancyText" style = "text-decoration: underline; margin-top: 30px; margin-bottom: 30px;"> Welcome to My Page!</h2>
+				<p class = "aboutMe regText">
+				This page was developed as a part of my SEAS 1001 Final project. Here I cover my experiences being an engineering 
+				student at George Washington University. This includes my schedule, resume, department orientation course, among other things.
+				This site was built using Boostrap, an open source framework for HTML and CSS. Learn more about Bootstrap 
+				<a class = "BSLink" href = "https://getbootstrap.com"> here</a>. 
+				</p>
+			</div>
+			<div class = "col-sm-4">
+				<img src="me.jpg" height=300 width=300 class="roundImg">
+			</div>
+		</div>
+	</div>
+	
+	<!-- schedule button container-->
+	<div class = "container-fluid text-center c1" id = "sched" style="margin:0">
+		<div class = "row">
+			<img src="cal.svg" height = "100" width = "100"> <!-- must credit https://www.flaticon.com/packs/calendar-icons -->
+		</div>
+		<div class = "row fancyText">
+			<h1> Schedules </h1>
+		</div>
+		<div class= "row">
+			<div class = "col-xs-6 pointer regText">
+				<div style="margin: 10px;"> 
+					<div class = "b1Box border">
+						<h2 style="color: black">Fall</h2 style="color: black">
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 pointer regText">
+				<div style="margin: 10px;">
+					<div class="b2Box border" style="font">
+						<h2 style="color: black">Spring</h2 style="color: black">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- fall schedule // second container-->
+	<div class ="container-fluid c2" style="padding-bottom: 5%;">
+		<div id = "collapseMe" class="collapse">
+			<table class="table regText" style="table-layout: fixed;">
+				<thead>
+					<tr>
+						<th>mon.</th>
+						<th>tue.</th>
+						<th>wed.</th>
+						<th>thur.</th>
+						<th>fri.</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<h5>Calc II</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+							<h5>Intro to Software Development</h5>
+							<p class = "classTime">11:10am-12:25pm</p>
+						</td>
+						<td>
+							<h5>Calc II</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+							<h5>Calc II Recitation</h5>
+							<p class= "classTime">8am-8:50</p>
+						</td>
+						<td>
+							<h5>Microeconomics Discussion</h5>
+							<p class = "classTime">8am-8:50</p>
+						</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>
+							<h5>Microeconomics</h5>
+							<p class = "classTime">12:45pm-1:35</p>
+						</td>
+						<td></td>
+						<td>
+							<h5>Intro to Software Development</h5>
+							<p class = "classTime">11:10am-12:25pm</p>
+						</td>
+						<td>
+							<h5>Engineering/CS (wk4-11) Orientation</h5>
+							<p class = "classTime">9:35am-10:25</p>
+						</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>
+							<h5>University Writing</h5>
+							<p class = "classTime">2:30pm-3:45</p>
+						</td>
+						<td></td>
+						<td>
+							<h5>Microeconomics</h5>
+							<p class = "classTime">12:45pm-1:35</p>
+						</td>
+						<td>
+							<h5>Engineering/CS (wk4-11) Orientation Lab</h5>
+							<p class="classTime">12:35pm-2:10/10:40am-12:15pm</p>
+						</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>
+							<h5>Intro to Software Development Lab</h5>
+							<p class="classTime">4:10pm-6</p>
+						</td>
+						<td></td>
+						<td>
+							<h5>University Writing</h5>
+							<p class = "classTime">2:30pm-3:45</p>
+						</td>
+						<td></td>
+					<tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="collapseMe2" class="collapse">
+			<table class="table regText" style="table-layout: fixed;">
+				<thead>
+					<tr>
+						<th>mon.</th>
+						<th>tue.</th>
+						<th>wed.</th>
+						<th>thur.</th>
+						<th>fri.</th>
+					</tr>
+					<tbody>
+					<tr>
+						<td>
+							<h5>Macroeconomics</h5>
+							<p class = "classTime">9:35am-10:25</p>
+						</td>
+						<td>
+							<h5>Algorithms and Data Stuctures</h5>
+							<p class = "classTime">9:35am-10:50</p>
+						</td>
+						<td>
+							<h5>Macroeconomics</h5>
+							<p class = "classTime">9:35am-10:25</p>
+						</td>
+						<td>
+							<h5>Algorithms and Data Stuctures</h5>
+							<p class = "classTime">9:35am-10:50</p>
+						</td>
+						<td>
+							<h5>Algorithms and Data Structures Lab</h5>
+							<p class = "classTime">10:40am-12:30pm</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h5>Discrete Structures I Lab</h5>
+							<p class = "classTime">2:20pm-3:10</p>
+						</td>
+						<td>
+							<h5>Discrete Structures I</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+							<h5>Intro to World Religions</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+							<h5>Macroeconomics Discussion</h5>
+							<p class = "classTime">2:10pm-3:10</p>
+						</td>
+						<td>
+							<h5>Physics II</h5>
+							<p class = "classTime">2:30pm-3:30</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h5>Intro to World Religions</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+							<h5>Physics II</h5>
+							<p class = "classTime">5:30pm-7:30</p>
+						</td>
+						<td></td>
+						<td>
+							<h5>Discrete Structures I</h5>
+							<p class = "classTime">3:45pm-5</p>
+						</td>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<h5>Physics II</h5>
+							<p class = "classTime">5:30pm-7:30</p>
+						</td>
+						<td></td>
+					</tr>
+					</tbody>
+				</thead>
+			</table>
+		</div>
+	</div>
+	
+	<div class = "container-fluid resume" id = "res" style="margin-top: 60px;">
+		<div class = "row text-center">
+			<img src="list.svg" height = "100" width = "100"> <!-- must credit https://www.flaticon.com/packs/calendar-icons -->
+		</div>
+		<div class = "row resumeTitle text-center">
+			<h1 class = "fancyText" style="margin-bottom: 30px;"> My Resume </h1>
+		</div>
+		<div class = "row regText resumeContent">
+			<div class = "col-sm-4 text-left">
+				<h3>karimshoorbajee99@gmail.com</h3>
+			</div>
+			<div class = "col-sm-4 text-center">
+				<h3>571 215 9951</h3>
+			</div>
+			<div class = "col-sm-4 text-right">
+				<h3>Washington DC</h3>
+			</div>
+		</div>
+		<div class = "row resumeHeader">
+
+		</div>
+		<div class = "row resumeContent">
+			<div class = "col-sm-7  resumeSecHeader">
+				<h1 class = "regText ">Experience</h1>
+				<h4 class = "regText ">Stone Hot Pizza | Fairfax, VA | July 2013 - January 2016</h4>
+				<h5 class = "regText ">Cashier</h5>
+				<ul class = "regText expDesc">
+					<li>Took orders from customers in store and over the phone</li>
+					<li>Cleared tables and clean the dine in area</li>
+					<li>Prepared salads, crepes, and desserts</li>
+					<li>Managed outgoing deliveries</li>
+				</ul>
+				<h4 class = "regText ">Chick-Fil-A | Fairfax, VA | June 2016 - August 2016 </h4>
+				<h5 class = "regText ">Front End Team Member</h5>
+				<ul class = "regText expDesc">
+					<li>Took orders for drive-thru and front counter</li>
+					<li>Bagged meals for drive-thru customers</li>
+					<li>Assured general customer satisfaction</li>
+				</ul>
+				<h4 class = "regText ">Chantilly Youth Association | Chantilly, VA | March 2016 - June 2017 </h4>
+				<h5 class = "regText ">Youth Referee</h5>
+				<ul class = "regText expDesc">
+					<li>Officiated youth soccer matches for ages 10-18</li>
+					<li>Made sure games ran to rules and regulation</li>
+					<li>defused arguments between players, parents, and coaches</li> 
+					<li>Assured my linesmen's decisions were justifiable as center referee</li>
+				</ul>
+				<h4 class = "regText ">Elliott School of International Affairs | Washington, DC | November 2017 - Present </h4>
+				<h5 class = "regText ">Student IT Support Associate</h5>
+				<ul class = "regText expDesc">
+					<li>Resolve faculty/staff technical problems (WiFi, Computer Performance)</li>
+					<li>Maintain systems and evaluate need for replacement</li>
+					<li>Set-up AV equipment for presentations</li> 
+				</ul>
+			</div>
+			<div class = "col-sm-5 resumeSecHeader text-right">
+				<h1 class = "regText ">Education</h1>
+				<h4 class = "regText  expDesc">Chantilly High School (4.15 GPA)</h4>
+				<h4 class = "regText  expDesc">Pursuing B.S. in Computer Science at George Washington University (Class of 2021) </h4>
+				<h1 class = "regText ">Skills</h1>
+				<div class = "regText expDesc ">
+					<p>HTML</p>
+					<p>CSS</p>
+					<p>Javascript</p>
+					<p>jQuery
+					<p>Bootsrap</p>
+					<p>Java</p>
+					<p>Microsoft Excel/Google Sheets</p>
+					<p>Adobe Photoshop</p>
+				</div>
+			</div>
+			<!--<div class = "col-sm-4 resumeSecHeader">
+								
+			</div>-->
+		</div>
+	</div>
+		
+	<div class="container-fluid c4" id = "dep">
+		<div class = "row text-center" style="margin-top: 50px;">
+			<img src="gear.svg" height = "100" width = "100">
+		</div>
+		<div class = "row">
+			<h1 class = "fancyText text-center">Department Pages</h1>
+		</div>
+		<div class = "row depPageRow">
+			<div class="col-lg-6 text-center">
+				<div class = "thumbnail">
+					<div class = "seasCont">
+						<img src="seh.jpg">
+						<a href="https://www.seas.gwu.edu">
+							<div class = "overlay">
+								<h3 class = "regText seasText">
+								Refer to this website for information about 
+								GWU's School of Engineering and Applied Sciences. Info includes programs of 
+								study, research, and academic advising
+								</h3>
+							</div>
+						</a>
+					</div>
+					<h2 class="regText"> SEAS </h2>
+				</div>
+			</div>
+			<div class="col-lg-6 text-center">
+				<div class = "thumbnail">
+					<div class = "csCont">
+						<img src="cs.jpg">
+						<a href="https://www.cs.seas.gwu.edu">
+							<div class="overlay">
+								<h3 class = "regText csText">
+								Refer to this website for information about
+								GWU's department of computer science. Info includes majors,
+								missions of the department, and academic advising. 
+								</h3>
+							</div>
+						</a>
+					</div>
+					<h2 class="regText"> Computer Science </h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "container c5">
+		<h3 class="regText">Other Links</h3>
+		<ul class="regText">
+			<li>
+				<p><a href="mlab.pdf" download>Matlab Assignments (pdf download)</a></p>
+			</li>
+			<li>
+				<p><a href="pptPage.html">Department Orientation Project (embedded powerpoint)</a></p>
+			</li>
+		</ul>
+	</div>
+	<div class = "container-fluid c7 text-center">
+		<h1 class="fancyText" style="margin-bottom: 30px;">Reflection</h1>
+		<p class="regText" style="font-size: 20px">
+			Life at GWU so far has taught me many lessons and I feel that I have matured in my time here. 
+			Being away from my parents and the rigid high school structure, I'm finding I have much more time that I 
+			get to decide what to do with. This has forced me to improve my time management skills and figure out 
+			what works best for me to get my work done. I've not only learned to budget time for work but also time 
+			for mental and physical health.
+		</p>
+	</div>
+	
+	
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+	$(".b1Box").click(function(){
+		$("#collapseMe2").collapse('hide');
+		$("#collapseMe").collapse('toggle');
+		$(".b1Box").toggleClass('b1Box_hl');
+		if ($(".b2Box").hasClass('b2Box_hl'))
+		{
+			$(".b2Box").toggleClass('b2Box_hl');
+		}
+	});
+	$(".b2Box").click(function(){
+		$("#collapseMe").collapse('hide');
+		$("#collapseMe2").collapse('toggle');
+		$(".b2Box").toggleClass('b2Box_hl');
+		if ($(".b1Box").hasClass('b1Box_hl'))
+		{
+			$(".b1Box").toggleClass('b1Box_hl');
+		}
+	});
+		
+	$(".navbar a, footer a[href='#myPage']").on('click',function(event)
+	{
+		if (this.hash !== "") 
+		{
+			event.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate
+			({
+				scrollTop: $(hash).offset().top
+			}, 900, function()
+			{
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			});
+		}
+	});
+	
+	
+})
+</script>
